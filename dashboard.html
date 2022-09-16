@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css">
-    
-    <little>dashboard</little>
 
   </head>
   <body>
@@ -22,23 +20,30 @@
 
         <div class="form_group">
           <label for="Harga">Harga</label>
-          <input type="text" id="harga" required>
+          <input type="number" id="harga" required>
         </div>
 
-          <button type="submit">submit</button>
+          <button type="submit">Submit</button>
 
       </form>
+
+      <div id="modal_bg"></div>
+
     </div>
 
   
     <main class="container">
+    <h1>harusnya sudah masuk</h1>
+    <div id="root">
+      <!-- DIRENDER DARI JS -->
+    </div>
 
 
-<button class="floating_button">
+<button class="floating_button" id="floating_button"> 
   +
 </button>
 </main>
-  <script src="./script.js"></script>
-
-  </body>
+  
+<script src="./script.js"></script>
+</body>
 </html>
